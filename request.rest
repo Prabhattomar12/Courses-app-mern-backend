@@ -1,0 +1,19 @@
+GET http://localhost:9000
+
+###
+
+POST http://localhost:9000/courses
+
+Content-Type: application/json
+
+{
+"title": "JavaScript", "thumbnail": "url", "rating": "4", "students": "25k", "description": "description about the course."
+}
+
+###
+
+GET http://localhost:9000/courses
+
+### 
+
+GET http://localhost:9000/courses/60ee7a8396ce924ff4cfad60
